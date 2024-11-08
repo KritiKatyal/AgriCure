@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "378237182070",
+    "project_id": "agri-cureapp",
+    "storage_bucket": "agri-cureapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378237182070:android:01d0c3d5a24944d42d7f57",
+        "android_client_info": {
+          "package_name": "com.example.agri_cure"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4cAZGaDWynrsA-IUgdwex3MyZRIwrL3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
