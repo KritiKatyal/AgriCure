@@ -44,7 +44,7 @@ Details of Tomato leaves dataset:
 - Nutrient Deficiencies: Potassium(K), Nitrogen(N), and Nitrogen-Potassium(N_K) 
 - Healthy leaves for reference
 
-Initial dataset: 356 images
+Initial dataset: 356 images,
 Augmented dataset: 9,873 images
 
 Details of Bitter gourd leaves dataset:
@@ -52,7 +52,7 @@ Details of Bitter gourd leaves dataset:
 - Nutrient Deficiencies: Potassium(K), Magnesium(Mg), Nitrogen(N), and their combinations(K mg, N mg, N k)
 - Healthy leaves for reference
 
-Initial dataset: 947 images
+Initial dataset: 947 images,
 Augmented dataset: 22,736 images
 
 ---
