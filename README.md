@@ -38,9 +38,18 @@ The final output identifies plant diseases, aiding farmers in diagnosing issues 
 
 ## Dataset
 
-The app is based on research data involving bitter gourd leaves, focusing on:
+The app is based on two different reserach datasets involving bitter gourd and tomato leaves.
+
+Details of Tomato leaves dataset: 
+- Nutrient Deficiencies: Potassium(K), Nitrogen(N), and Nitrogen-Potassium(N_K) 
+- Healthy leaves for reference
+
+Initial dataset: 356 images
+Augmented dataset: 9,873 images
+
+Details of Bitter gourd leaves dataset:
 - Diseases: Downy Mildew, Leaf Spot, Jassid
-- Nutrient Deficiencies: Potassium, Magnesium, Nitrogen, and their combinations
+- Nutrient Deficiencies: Potassium(K), Magnesium(Mg), Nitrogen(N), and their combinations(K mg, N mg, N k)
 - Healthy leaves for reference
 
 Initial dataset: 947 images
@@ -69,7 +78,13 @@ Augmented dataset: 22,736 images
 ---
 
 ## Performance Metrics
+Tomato results:
+- **Mean Average Precision (mAP):** 99.5% at IoU=0.50
+- **Precision:** 99.8%
+- **Recall:** 99.6%
+- **F1 Score:** 99%
 
+Bitter gourd results:
 - **Mean Average Precision (mAP):** 99.5% at IoU=0.50
 - **Precision:** 99.7%
 - **Recall:** 99.8%
@@ -114,9 +129,10 @@ For queries, reach out to the developers:
 ---
 
 ## Acknowledgments
+This application is based on the following researches:
 
-- **Research Paper:** This application is based on the research "Layered Augmentation-Enhanced YOLOv8 for Disease and Nutrient Deficiency Detection in Bitter Gourd Leaves."
-
+- **Research Paper:** "A hybrid approach of nutrition deficiency detection in the tomato leaf using the yolov8 deep learning model and a layered augmentation scheme"
+- **Research Paper:** "Layered Augmentation-Enhanced YOLOv8 for Disease and Nutrient Deficiency Detection in Bitter Gourd Leaves."
 ---
 
 ## License
