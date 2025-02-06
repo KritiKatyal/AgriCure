@@ -122,7 +122,7 @@ We welcome contributions! Please create a pull request or open an issue for any 
 ## Contact
 
 For queries, reach out to the developers:
-- Kritika Katyal: kritikatyal06@gmail.com
+- Kriti Katyal: kritikatyal06@gmail.com
 - Sumit Kumar: sumitkumar59378@gmail.com / nehra59378@gmail.com
 - Varun Kumar: varunkumar5257@gmail.com
 
