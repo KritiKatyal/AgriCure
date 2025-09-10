@@ -7,7 +7,7 @@ This repository contains the code and resources for an Android application desig
 
 1. **General Object Rejection Model:** Filters out images containing non-plant objects, such as humans, vehicles, or other unrelated elements.
 2. **Plant Detection Model:** Identifies whether the input image contains a plant or if it is an invalid test case, such as a green screen or an unrelated object.
-3. **Precision Plant Validation Model:** Confirms the presence of a plant and ensures that only high-confidence images (precision above 90%) proceed to disease detection.
+3. **Precision Plant Validation Model:** Confirms the presence of a plant and ensures that only high-confidence images (precision above 75%) proceed to disease detection.
 
 The final output identifies plant diseases, aiding farmers in diagnosing issues efficiently.
 
