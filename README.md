@@ -45,7 +45,7 @@ Details of Tomato leaves dataset:
 - Healthy leaves for reference
 
 Initial dataset: 356 images,
-Augmented dataset: 9,873 images
+Augmented dataset: 2,025 images
 
 Details of Bitter gourd leaves dataset:
 - Diseases: Downy Mildew, Leaf Spot, Jassid
@@ -53,7 +53,7 @@ Details of Bitter gourd leaves dataset:
 - Healthy leaves for reference
 
 Initial dataset: 947 images,
-Augmented dataset: 22,736 images
+Augmented dataset: 2,430 images
 
 ---
 
@@ -69,7 +69,7 @@ Augmented dataset: 22,736 images
 
 ### Precision Plant Validation Model
 - Validates plant images passing prior tests.
-- Applies a strict precision threshold (>90%) to eliminate low-confidence cases.
+- Applies a strict precision threshold (>75%) to eliminate low-confidence cases.
 
 ### Disease Detection Model
 - Identifies diseases in the final validated plant images.
@@ -79,16 +79,16 @@ Augmented dataset: 22,736 images
 
 ## Performance Metrics
 Tomato results:
-- **Mean Average Precision (mAP):** 99.5% at IoU=0.50
-- **Precision:** 99.8%
-- **Recall:** 99.6%
-- **F1 Score:** 99%
+- **Mean Average Precision (mAP):** 92.7% at IoU=0.50
+- **Precision:** 89.1%
+- **Recall:** 83.1%
+- **F1 Score:** 89.5%
 
 Bitter gourd results:
-- **Mean Average Precision (mAP):** 99.5% at IoU=0.50
-- **Precision:** 99.7%
-- **Recall:** 99.8%
-- **F1 Score:** 99.5%
+- **Mean Average Precision (mAP):** 92.9% at IoU=0.50
+- **Precision:** 89.6%
+- **Recall:** 86.6%
+- **F1 Score:** 91.66%
 
 ---
 
@@ -98,7 +98,7 @@ Bitter gourd results:
    ```bash
    git clone https://github.com/KritiKatyal/AgriCure.git
    ```
-2. Install dependencies as specified in the `requirements.txt` file.
+2. Install dependencies as specified in the `pubspec.yaml` file.
 3. Build the Android application using the provided source code.
 
 ---
