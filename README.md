@@ -117,10 +117,15 @@ Bitter gourd results:
 The application is built with a minimum SDK version of 23, which corresponds to Android 6.0 (Marshmallow) and above. Therefore, the minimum specifications to run the app are:
 
 OS version: Android 6.0 or higher
+
 CPU: ARM-based processor (32-bit or 64-bit), ~1 GHz or above
+
 RAM: Minimum 2 GB (4 GB recommended for smoother performance)
+
 Storage: At least 8 GB internal storage (16 GB recommended)
+
 Display: 3.5–4.0 inch screen or larger, minimum 480×800 px resolution
+
 Supported Architectures: armeabi-v7a, arm64-v8a, x86
 
 ## Contributing
