@@ -143,12 +143,7 @@ For queries, reach out to the developers:
 
 ---
 
-## Acknowledgments
-This application is based on the following researches:
 
-- **Research Paper:** "A hybrid approach of nutrition deficiency detection in the tomato leaf using the yolov8 deep learning model and a layered augmentation scheme"
-- **Research Paper:** "Layered Augmentation-Enhanced YOLOv8 for Disease and Nutrient Deficiency Detection in Bitter Gourd Leaves."
----
 
 ## License
 
